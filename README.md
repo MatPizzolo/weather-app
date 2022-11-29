@@ -84,7 +84,6 @@
 * [![Css][Css.com]][Css-url]
 * [![JS][Js]][Js-url]
 * [![React][React.js]][React-url]
-* [![Gatsby][Gatsby.com]][Gatsby-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,8 +130,6 @@ Project Link: [https://github.com/MatPizzolo/sabujcha-landing](https://github.co
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[gatsby.com]:  https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white
-[Gatsby-url]: https://reactjs.org/
 [css.com]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [Css-url]: https://reactjs.org/
 [HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
