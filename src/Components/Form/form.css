@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Shippori+Antique+B1&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+.centrando {
+    justify-content: center;
+    height: 100%;
+}
+
+.form  {
+    width: 100%;
+    position: absolute;
+    top: 250px;
+}
+
+.formField {
+    display: block;
+    width: 7%;
+    height: 18px;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: width 0.4s ease-in-out;
+    background: transparent;
+    z-index: 99;
+}
+
+.formField:focus {
+    width: 17%;
+    background-color: transparent;
+    outline: 0;
+    color: blue;
+    border-color: blue;
+}
+*:focus {
+    outline: none;
+}
+
+.formField:focus ~ .placeholder-move {
+    color: blue;
+    transform: translateY(-30px);
+    transition: 2s;
+}
+
+.placeholder-move {
+    position: absolute;
+    left: 49%;
+    top: -2px;
+    pointer-events: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+
+.text-container {
+    top: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    margin-top: 0;
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+    color: #383a3b;
+  }
